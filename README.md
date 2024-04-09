@@ -1,15 +1,14 @@
-# ===============================================================
-# ===================== PROJET IA & JEUX=========================
-# ======== par Inès, Imène, Margot, Louna & Louise ==============
+# **PROJET IA & JEUX**
+#### *par Imène, Margot, Inès, Louna & Louise*
 
-# Pour compiler sous SDL
+### Pour compiler sous SDL
 
 $ gcc main.c -o othello -lSDLmain -lSDL -lSDL_ttf -lSDL_image
 $ ./othello
 
-# Que trouve t-on dans ce fichier ?
+### Que trouve t-on dans ce fichier ?
 
-# Gestion
+#### Gestion
 
 Les fichiers gestion.c & gestion .h
 Contient les fonctions qui gèrent le tableau "grille" & le bot :
@@ -36,7 +35,7 @@ Contient les fonctions qui gèrent le tableau "grille" & le bot :
     - bot_moyen
     - bot_difficile
 
-# Jeu 
+##### Jeu 
 
 Les fichiers jeu.c & jeu.h
 Contient les fonctions qui gèrent les images après "nouvelle partie" : 
@@ -47,18 +46,18 @@ Contient les fonctions qui gèrent les images après "nouvelle partie" :
     - jouer_vs_bot
 
 
-# Plateau
+#### Plateau
 
 Les fichiers plateau.c & plateau.h
 
-# Variables
+#### Variables
 
 Le fichier variables.h
 
-# Images
+#### Images
 
 Un certain nombre d'images directement mise dans le même dossier (chemin d'accès difficilement supportable sous Windows) réalisé avec le logiciel CANVA
 
-# Sauvegarde
+#### Sauvegarde
 
 Un fichier sauvegarde pour le bouton reprendre
